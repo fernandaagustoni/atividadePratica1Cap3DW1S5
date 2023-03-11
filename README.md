@@ -1,7 +1,7 @@
 <h1 align="center"> Atividade 1 - Capítulo 3 - DW1S5 </h1>
 <head>
 <p align="center">
-<img src="https://img.shields.io/static/v1?label=STATUS&message=IN PROGRESS&color=GREEN&style=for-the-badge"/>
+<img src="https://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
 </head>
