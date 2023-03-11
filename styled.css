@@ -4,6 +4,10 @@
     font-family: sans-serif;
 }
 
+body{
+    background: #F2F2F2;
+}
+
 .beth{
     position: relative;
     width: 100%;
@@ -101,4 +105,67 @@ span{
     color: #F2A444;
     text-align: center;
     padding: 3%;
+}
+
+.sec{
+    padding: 10px 5%;
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+}
+
+.produtos .card{
+    width: 310px;
+    background: #F2F2F2;
+    box-shadow: 0 10px 20px #0D0D0D;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.produtos .card img1{
+    height: 250px;
+    width: 100%;
+}
+
+.produtos .card .desc{
+    padding: 5px 20px;
+    opacity: 0.8;
+}
+
+.produtos .card .title{
+    font-weight: 800;
+    font-size: 20px;
+    color: #BF755A;
+    padding: 0 20px;
+}
+
+.produtos .card .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.produtos .card .box .price{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.produtos .card .box .btn{
+    font-size: 13px;
+    color: red;
+    padding: 10px 18px;
+    font-weight: 900;
+    border: 1px solid #F63E4E;
+    border-radius: 20px;
+}
+
+.produtos .card .box .btn:hover{
+    cursor: pointer;
+    background-color: #F63E4E;
+    color: #F2F2F2;
 }
